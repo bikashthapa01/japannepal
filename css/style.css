@@ -57,7 +57,7 @@ body {
 }
 
 .block {
-	width: 48.5%;
+	width: 47.5%;
     float: left;
     background: #fbf7f9;
     margin: 0px 10px 10px 0px;
@@ -209,6 +209,42 @@ body {
 
 /*Responsive CSS codes for different screensize*/
 
-@media screen and(max-width: 1000px;){
-	
+@media screen and (max-width: 700px){
+	#wrapper {
+		width: 100%;
+
+	}
+	#content {
+		width: 100%;
+		float: none;
+	}
+	.block {
+		width: 100%;
+	}
+
+	.ticker h3 {
+		background: red;
+	}
+	#header_content, #menu, #content, #top_content, #footer_info, #wrapper, .ticker {
+		max-width: 100%;
+	}
+	.block ul li img {
+    width: 100%;
+	}
+	.site_logo {
+		text-align: center;
+		width: 100%;
+	}
+	.banner {
+		margin: 5px;
+		width: unset;
+		padding: 0;
+	}
+	.banner img {
+		width: 100%;
+	}
+	.block ul li {
+    /*padding: 5px;*/
+    margin: 10px;
+}
 }

@@ -210,7 +210,7 @@ body {
 /*Responsive CSS codes for different screensize*/
 
 @media screen and (max-width: 700px){
-	body {
+	#wrapper {
 		margin: 5px !important;
 	}
 	#wrapper {

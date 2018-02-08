@@ -258,4 +258,13 @@ body {
 		width: 100%;
 		overflow: hidden;
 	}
+	#footer_info {
+		padding: 10px;
+	} 
+}
+
+@media screen and (min-width: 300px) and (max-width: 700px){
+	#button_widget {
+		width: 2%;
+	}
 }

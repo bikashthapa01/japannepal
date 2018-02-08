@@ -250,4 +250,12 @@ body {
     /*padding: 5px;*/
     margin: 10px;
 }
+	#sidebar {
+		width:100%;
+		margin:5px;
+	}
+	.widget_content ul li {
+		width: 100%;
+		overflow: hidden;
+	}
 }
